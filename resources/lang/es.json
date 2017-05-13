@@ -2,7 +2,7 @@
 
 {
 	"office" : "Oficina",
-	"E-mail" : "correo",
+	"Email" : "correo",
 	"chat" : "chat",
 	"customs" : "Clientes",
 	"create custom" : "Crear cliente",
@@ -10,7 +10,31 @@
 	"employes" : "Empleados",
 	"list employes" : "Listado Empleados",
 	"create employe" : "Crear empleado",
-	"Admin Meza" : "Administrador Meza"
+	"Admin Meza" : "Administrador Meza", 
+	"E-mail" : "Bandeja de correo", 
+	"recived" : "Recibidos",   
+	"emails" : "Correos",
+	"sends" : "Enviados",
+	"General Chat room" : "Chat general",
+	"Chat" : "Chat",
+	"Users Online" : "Usuarios Conectados",
+	"deleted" : "Eliminados",
+	"create new custom" : "crear nuevo cliente",
+	"document": "Documento",
+	"full name": "Nombre completo",
+	"phone": "Telefono",
+	"owner create": "creado por",
+	"create at": "Fecha de creacion",
+	"update at": "Fecha actualizacion",
+	"create employe": "Crear empleado",
+	"status": "Estado",
+	"identification": "Identificacion",
+	"name": "Nombre",
+	"first name": "Nombre",
+	"last name": "Apellido",
+	"phone": "Telefono",
+	"password": "Clave",
+	"confirm password": "Confirme clave"
 }
 
 

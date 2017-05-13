@@ -37,22 +37,20 @@
             <li class="treeview">
                 <a href="#"><i class='fa fa-link'></i> <span>{{ __('office') }}</span> <i class="fa fa-angle-left pull-right"></i></a>
                 <ul class="treeview-menu">
-                    <li><a href="#">{{ __('E-mail') }}</a></li>
-                    <li><a href="#">{{ __('Chat') }}</a></li>
+                    <li><a href="{{url('/email')}}">{{ __('E-mail') }}</a></li>
+                    <li><a href="{{url('/chat')}}">{{ __('Chat') }}</a></li>
                 </ul>
             </li>
             <li class="treeview">
                 <a href="#"><i class='fa fa-link'></i> <span>{{ __('customs') }}</span> <i class="fa fa-angle-left pull-right"></i></a>
                 <ul class="treeview-menu">
-                    <li><a href="#">{{ __('list customs') }}</a></li>
-                    <li><a href="#">{{ __('create custom') }}</a></li>
+                    <li><a href="{{url('/customs')}}">{{ __('customs') }}</a></li>
                 </ul>
             </li>
             <li class="treeview">
                 <a href="#"><i class='fa fa-link'></i> <span>{{ __('employes') }}</span> <i class="fa fa-angle-left pull-right"></i></a>
                 <ul class="treeview-menu">
-                    <li><a href="#">{{ __('list employes') }}</a></li>
-                    <li><a href="#">{{ __('create employe') }}</a></li>
+                    <li><a href="{{url('employes')}}">{{ __('employes') }}</a></li>
                 </ul>
             </li>
         </ul><!-- /.sidebar-menu -->
